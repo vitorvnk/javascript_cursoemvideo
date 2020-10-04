@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Document</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                font: normal 20pt Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            var nome = window.prompt('Qual é o seu nome?')
+            document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br>`)
+            document.write(`Seu nome em maiúsculas é: ${nome.toUpperCase()}.<br>`)
+            document.write(`Seu nome em minúsculas é: ${nome.toLowerCase()}.`)
+        
+        /*
+            Formatando String 
+            var.length  -  Qunatos caracteres a string tem
+            var.toUpperCase()  - Tudo para 'MAIÚSCULAS'
+            var.toLowerCase()  - Tudo para 'minusculas '
+
+
+
+            IMPORTANTEEEEEE
+            n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) - Coloca em REAL automaticamente
+        */
+        </script>
+    </body>
+</html>

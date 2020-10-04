@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="">
+        <title>Meu primeiro Programa</title>
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                background-color: rgb(105, 105, 173); /* Comentário CSS */
+                color: white;
+                font: normal 20pt Arial;
+            }
+            h1{
+                color: rgb(255, 212, 22);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Olá, mundo!</h1>
+        <p>MEU SITE CARALHO</p>
+        <script>
+            var n1 = Number(window.prompt('Digite um número: '));
+            var n2 = Number.parseInt(window.prompt('Digite outro número: '));
+            var s = n1 + n2;
+            window.alert(`A soma entre ${n1} e ${n2} é ${s}`); //Template String 
+            /* 
+            + para adição (numero + numero)
+            + para contatenação (string + string)
+
+
+            Conversão para Número 
+            Number.parseInt(n) - Inteiro
+            Number.rarseFloat(n) - Flutuante
+            Number(n) - O JS faz a conversão automático
+
+            Conversão para String
+            String(n)
+
+            */
+        </script>
+    </body>
+</html>
+
