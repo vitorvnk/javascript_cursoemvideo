@@ -1,0 +1,14 @@
+MUITO ÚTIL
+
+teste ? True : False
+
+Exemplo:
+teste > 7 ? 'Aprovado' : 'Reprovado'
+
+
+= - Atribuição
+== - Igualdade de valores
+=== - Igualdade Exata
+
+|| - OU 
+&& - E
