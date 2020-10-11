@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    
+    <link rel="stylesheet" href="01-estilo.css">
+    <script src="01-back.js"></script>
+</head>
+
+<body id='cor'>
+        <header>
+            <h1>Verificador</h1>
+        </header>
+        <section>
+            <div>
+                <p>Digite seu ano de Nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0" required>
+                <p>
+                <p>Qual trap você gosta?<br>
+                    <input type="radio" name="radtrap" id="astolfo">
+                    <label for="astolfo">Asfolto</label>
+                    <input type="radio" name="radtrap" id="nagisa" >
+                    <label for="nagisa">Nagisa</label>
+                    <input type="radio" name="radtrap" id="juuzou" >
+                    <label for="juuzou">Juuzou</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            </div>
+            <div id="conteudo">
+                Preencha para saber o resultado.
+            </div>
+        </section>
+        <footer>
+            <p>&copy;Vitor Alexandre</p>
+        </footer>
+</body>
+</html>
