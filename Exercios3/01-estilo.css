@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    margin: auto;
+    color:white;
+    background-color: rgb(125, 60, 185);
+}
+header{
+    text-align: center;
+    
+}
+
+
+section{
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    
+}
+
+img{
+    max-width: 400px;
+    border-radius: 50%;
+}
+div{
+    color: black;
+    text-align: center;
+    padding: 7px;
+}
+#conteudo{
+    text-align: justify;
+}
+
