@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin: auto;
+    color:white;
+    background-color: rgb(179, 4, 126);
+    text-align: center;
+}
+#fnum{
+    width: 155px;
+    height: 45px;
+    border-radius: 6px;
+    border-style: double;
+    border-color: rgb(179, 4, 126);
+    color:rgb(179, 4, 126);
+    
+    text-align: center;
+    font-size: larger;
+    font-size: 25px;
+    
+}
+
+#botadd{
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+    border-color: white;
+    border-style: none;
+    color: white;
+    background-color: rgb(0, 150, 150);
+
+    font-size: large;
+    
+}
+#botfim{
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+    border-color: white;
+    border-style: none;
+    color: white;
+    background-color: rgb(0, 0, 172);
+
+    font-size: large;
+}
+#botclear{
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 6px;
+    border-color: white;
+    border-style: none;
+    color: white;
+    background-color: rgb(143, 0, 0);
+
+    font-size: large;
+}
+#res{
+    font-style: italic;
+    font-size: large;
+    font-size: 25px;
+}
+
+section{
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
+}
+
+footer{
+    font-style: italic;
+    
+}
+
+img{
+    max-width: 400px;
+    border-radius: 50%;
+}
+div{
+    color: black;
+    padding: 7px;
+}
+
+select{
+    width: 150px;
+}
+

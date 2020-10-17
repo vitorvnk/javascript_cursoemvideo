@@ -9,6 +9,7 @@ function tabuada(){
         let n = Number(num.value)
         let c = 1
 
+        
         tab1.innerHTML = ''
         tab2.innerHTML = ''
         while (c <= 10){
