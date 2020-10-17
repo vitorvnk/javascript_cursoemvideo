@@ -1,17 +1,28 @@
-function contar(){
-    var txtini = window.document.getElementById('txtini')
-    var txtfim = window.document.getElementById('txtfim')
-    var txtpass = window.document.getElementById('txtpass')
-    var cont = window.document.getElementById('conteudo')
+function tabuada(){
+    var num = window.document.getElementById('txtnum')
+    var tab1 = window.document.getElementById('seltab1')
+    var tab2 = window.document.getElementById('seltab2')
 
-    var ini = Number(txtini.value)
-    var fim = Number(txtfim.value)
-    var pass = Number(txtpass.value)
-    var frase = ''
+    if (num.value.length == 0){
+        window.alert('[ERRO] Digite um número.')
+    } else{
+        let n = Number(num.value)
+        let c = 1
 
-    for(ini ; ini <= fim ; ini += pass){
-        frase += ini + ' > '
+        tab1.innerHTML = ''
+        tab2.innerHTML = ''
+        while (c <= 10){
+            let item1 = document.createElement('option')
+            item1.text = `${n} x ${c} = ${n*c}` 
+            item1.value = `tab${c}`
+            tab1.appendChild(item1)
+
+            let item2 = document.createElement('option')
+            item2.text = `${n} x ${-c} = ${n*-c}` 
+            item2.value = `tab${c}`
+            tab2.appendChild(item2)
+            c++
+        }
     }
-    frase += 'Fim'
-    cont.innerHTML = `${frase}`
+
 }
