@@ -67,6 +67,7 @@ function analizar(){
         stats.innerHTML = `Insira números no vetor.`
     } else{
         stats.innerHTML = ''
+        res.innerHTML = ''
         res.innerHTML += `Ao todo, temos ${valores.length} cadastrados;<br>`
         res.innerHTML += `O maior número cadastrados é: ${Math.max.apply(null, valores)};<br>`
         res.innerHTML += `Somando todos os valores, temos: ${somamed(valores,1)};<br>`
