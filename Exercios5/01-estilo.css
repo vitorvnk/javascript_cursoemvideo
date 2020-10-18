@@ -57,7 +57,7 @@ body{
 
     font-size: large;
 }
-#res{
+#vet{
     font-style: italic;
     font-size: large;
     font-size: 25px;
@@ -89,4 +89,5 @@ div{
 select{
     width: 150px;
 }
+
 

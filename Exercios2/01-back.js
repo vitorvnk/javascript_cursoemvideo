@@ -27,15 +27,16 @@ function conteudo(){
 function verificar(){
     var data = new Date()
     var ano = data.getFullYear()
-
     var n1 = window.document.querySelector('input#txtano')
     var idade = Number(n1.value)
 
-    if (ano-idade < 18){
+    if (n1.value.length == 0){
+        alert('DATA DE NASCIMENTO INVÁLIDA.')
+    } else if  (ano-idade >= 18){
+        conteudo()
+    }else{
         alert('APENAS MAIORES DE 18 TEM ACESSO AO CONTEÚDO.')
         window.location.reload()
-
-    } else{
-        conteudo()
+        
     }
 }
